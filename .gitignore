@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Generated client downloads
+/WaddlePro-Download.png
+/WaddlePro-Download.gif
+/WaddlePro-Download.jpg
+
+# Temporary and backup files created during downloads/replacements
+.waddlepro-*.tmp
+*.waddlepro-backup-*
+
+# Local debugger exports
+session.log
+*.waddle.log
+
+# Server-local credentials and environment configuration
+/waddleproserver/waddle-id.json
+.env
+.env.*
+!.env.example

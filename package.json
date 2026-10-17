@@ -1,0 +1,10 @@
+{
+  "name": "waddlepro",
+  "version": "1.0.0",
+  "description": "WADDLEPRO WebSocket image transfer client",
+  "main": "src/client.js",
+  "bin": { "waddlepro": "bin/waddlepro.js" },
+  "scripts": { "start": "node bin/waddlepro.js", "test": "node --test" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "ws": "^8.18.3" }
+}

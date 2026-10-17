@@ -1,0 +1,10 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "imageDirectory": "./images",
+  "requireWaddleID": false,
+  "maxFileSizeMB": 100,
+  "chunkSizeBytes": 1048576,
+  "handshakeTimeoutMs": 10000,
+  "ackTimeoutMs": 30000
+}
